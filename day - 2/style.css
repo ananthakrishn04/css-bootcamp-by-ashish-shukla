@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.restaurant-ad {
+    height: 300px;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.restaurant-ad .restaurant-image{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.restaurant-ad h3{
+    font-weight: 500;
+}
+
+.restaurant-ad div.restaurant-profile{
+    position: relative;
+}
+
+.restaurant-ad div.restaurant-profile .discount{
+    background-color: dodgerblue;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 0;
+
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.restaurant-ad div.restaurant-profile .time{
+    border: 1px solid lightgray;
+    width: fit-content;
+
+    background-color: lightgray;
+    border-radius: 5px;
+
+    padding: 0px 2px;
+
+    font-size: small;
+
+    position: absolute;
+
+    top: 170px;
+    right: 10px;
+}
+
+.restaurant-ad div.restaurant-profile .promo{
+    background-color:aliceblue;
+    opacity: 0.1;
+    
+    width: fit-content;
+    padding: 2px 2px;
+
+    border-radius: 2px;
+
+    position: absolute;
+
+    top: 15px;
+    left: 10px;
+
+
+    font-size: x-small;
+    font-weight: 800;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.restaurant-ad div.safety-desc{
+    display: flex;
+    flex-direction: row;
+}
+
+.restaurant-ad div.safety-desc img{
+    height: 20px;
+    width: 30px;
+}
